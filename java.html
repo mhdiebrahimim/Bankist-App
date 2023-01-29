@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="java.css">
+  <title>Login</title>
+</head>
+<body>
+  <div id="header-div" class="top-container">
+    <p id="welcome" class="welcome">Log in to your acount</p>
+    <form>
+      <input class="header-input" id="username-input" type="text" placeholder="Username">
+      <input class="header-input" id="pass-input" type="text" placeholder="Password">
+      <button id="login-btn">login</button>
+    </form>
+  </div>
+  <div id="main-div" class="main-container">
+    <div class="grid" id="top-grid">Your current sumery is: <p id="date-current-money"></p><p id="current-money"></p></div>
+    <div class="grid" id="left-grid"></div>
+    <div class="grid" id="right1-grid">
+      <p>transfer money</p>
+      <input class="input-main" placeholder="Transfer to" id="transfer-to" type="text">
+      <input class="input-main"  placeholder="Amount" id="transfer-amount" type="text">
+      <button class="main-btn" id="transfer-money-btn"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="grid" id="right2-grid">
+      <p>Request loan</p>
+      <input class="input-main" placeholder="Amount" id="request-amount" type="text" >
+      <button class="main-btn" id="request-btn"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="grid" id="right3-grid">
+      <p>Close acount</p>
+      <input class="input-main" placeholder="Confirm user" id="confirm-user" type="text">
+      <input class="input-main" placeholder="Confirm pin" id="confirm-pin" type="text">
+      <button id="delete-acount-btn" class="main-btn"><i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+    <div class="grid" id="buttom-grid">
+      <p>Your all income is:<p id="display-income" class="green"></p></p>
+      <p>your all outcome is:<p id="display-outcome" class="red"></p></p>
+      <button id="sort">sort</button>
+    </div>
+  </div>
+  
+  <script src="https://kit.fontawesome.com/b1cd1182db.js" crossorigin="anonymous"></script>
+  <script src="java.js"></script>
+</body>
+</html>
