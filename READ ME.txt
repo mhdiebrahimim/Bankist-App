@@ -1,0 +1,5 @@
+BANKIST APP
+hello!
+this app is based on HTML , CSS and JAVASCRIPT.
+every one who is intrested in web development it can be a really nice project for practic.
+any assuse? email it -> mhdiebrahimim@gmail.com
